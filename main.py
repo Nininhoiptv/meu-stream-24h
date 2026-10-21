@@ -22,4 +22,4 @@ cmd = [
     STREAM_URL
 ]
 
-subprocess.run(cmd)
+subprocess.run(cmd)a
