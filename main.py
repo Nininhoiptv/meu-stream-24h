@@ -1,8 +1,8 @@
 import os
 import subprocess
 
-STREAM_KEY = os.environ.get("STREAM_KEY")
-STREAM_URL = f"rtmp://a.rtmp.youtube.com/live2/{STREAM_KEY}"
+# Pega o link RTMP do SSH101 direto do Render
+STREAM_URL = os.environ.get("STREAM_URL")
 
 cmd = [
     "ffmpeg",
